@@ -9,11 +9,11 @@ const Product = (props) => {
   const { dispatch } = customProvider();
   return (
     <div>
-      <div className=" shadow-lg rounded-lg border border-gray-200  card">
+      <div className=" shadow-lg rounded-lg  border border-gray-200 py-4 card">
         <img
           src={image}
           alt=""
-          className="w-[250px] h-[250px] object-contain mb-2 p-4 "
+          className="w-[300px] h-[300px] object-contain mb-2 p-5"
         />
         <div className="p-4">
           <div className="">

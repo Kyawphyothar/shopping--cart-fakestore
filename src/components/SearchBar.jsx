@@ -12,7 +12,7 @@ const SearchBar = () => {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className=" px-2 py-1 rounded md:w-[500px] search-input"
+            className=" px-5 py-1 rounded md:w-[500px] search-input"
             placeholder="search products.."
           />
       </div>
