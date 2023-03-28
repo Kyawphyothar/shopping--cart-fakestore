@@ -1,0 +1,17 @@
+.search-input{
+    box-shadow: 0 0 4px rgba(1, 1, 1, 0.2);
+}
+
+.search-input:hover{
+    box-shadow: 0 0 8px rgba(1, 1, 1, 0.2);
+}
+
+.search-input::placeholder{
+    font-size: 0.9rem;
+    padding: 5px;
+}
+.search-input:focus-visible{
+    outline: none;
+    /* border: none; */
+    /* box-shadow: none; */
+}
